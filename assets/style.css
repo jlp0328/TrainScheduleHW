@@ -1,0 +1,51 @@
+h1{
+  font-family: 'Bungee Shade', cursive;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Reem Kufi', sans-serif;
+  background: #6C3483;
+  color: white;
+  padding: 10px;
+}
+
+.lead{
+  font-family: 'Reem Kufi', sans-serif;
+  text-align: center;
+}
+
+.btn{
+  background: #797D7F;
+  margin-bottom: 30px;
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 20px;
+}
+
+img{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.jumbotron{
+  background: #797D7F;
+  color: white;
+}
+
+.jumbotron h1{
+  color: white;
+  font-size: 70px;
+
+}
+
+#schedule{
+  border: 5px solid #797D7F;
+  margin-bottom: 30px;
+}
+
+#addTrain{
+  border: 5px solid #797D7F;
+}
