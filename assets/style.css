@@ -10,6 +10,11 @@ h2{
   padding: 10px;
 }
 
+h3{
+  font-family: 'Reem Kufi', sans-serif;
+  text-align: center;
+}
+
 .lead{
   font-family: 'Reem Kufi', sans-serif;
   text-align: center;

@@ -24,6 +24,7 @@
     <h1 class="display-3">Downtown Raleigh Train Schedule</h1>
     <p class="lead">Choo Choo. Chee Chee.</p>
     <img src="assets/train.gif" alt="train">
+    <h3>The current time is: <span id="displayTime"></span></h3>
   </div>
 </div>
 
@@ -39,24 +40,24 @@
         <th>Minutes Away</th>
       </tr>
     </thead>
-    <tbody>
-      <tr>
-     <!--    <th scope="row"></th>
+    <tbody id="inputFromForm">
+<!--       <tr>
+        <td scope="row">Example</td>
         <td>Mark</td>
-        <td>Otto</td> -->
+        <td>Otto</td>
       </tr>
       <tr>
-      <!--   <th scope="row">2</th>
+ -->      <!--   <th scope="row">2</th>
         <td>Jacob</td>
         <td>Thornton</td> -->
-      </tr>
+      <!-- </tr> -->
     </tbody>
   </table>
 </div>
 
 <div class="container" id="addTrain">
  <h2 class="display-3">Add Train</h2>
-  <form>
+  <form id="addTrains">
     <div class="form-group">
       <label for="formGroupExampleInput">Train Name</label>
       <input type="text" class="form-control" id="trainName" placeholder="">
@@ -77,6 +78,8 @@
     <button type="button" class="btn btn-primary" id="submit">Submit</button>
   </form>
 </div>
+
+<script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
 
 <script src="assets/app.js"></script>
 
