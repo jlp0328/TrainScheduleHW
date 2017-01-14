@@ -15,9 +15,10 @@ h3{
   text-align: center;
 }
 
-.lead{
+.lead, th, td, label {
   font-family: 'Reem Kufi', sans-serif;
   text-align: center;
+  font-size: 20px;
 }
 
 .btn{
